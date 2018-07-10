@@ -3,6 +3,7 @@
 	height: 180px;
 	border-radius: 50%;
 	position: absolute;
+	left: 200px;
 	color: black;
 	background-color: currentColor;
 	box-shadow:
@@ -26,12 +27,12 @@
 .mustache::after {
 	content: "";
 	position: absolute;
-	left: 30px;
+	left: 390px;
 	top: 120px;
 	width: 210px;
 	height: 120px;
 	border-bottom: solid 180px currentColor;
-	border-radius: 0 0 0 100%;
-	transform: rotate(-40deg);
-	transform-origin: right 210px;
+	border-radius: 0 0 100% 0;
+	transform: rotate(40deg);
+	transform-origin: left 210px;
 }
