@@ -9,3 +9,8 @@
 		150px 240px 0 0 currentColor,
 		300px 240px 0 0 currentColor;
 }
+
+.mustache::before{
+	width: 210px;
+	height: 120px;
+}
